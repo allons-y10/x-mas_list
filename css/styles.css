@@ -1,0 +1,8 @@
+body {
+    background: url('../images/snowy.jpg') center no-repeat;
+}
+
+.title {
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #030303;
+}
