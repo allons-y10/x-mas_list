@@ -1,5 +1,25 @@
 body {
-    background: url('../images/snowy.jpg') center;
+    background: url('../images/snowy.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+}
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+.navbar {
+    z-index: 100;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 30%;
+    max-width: 100%;
 }
 
 .title {
